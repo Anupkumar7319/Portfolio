@@ -28,7 +28,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .nav-links {
+    .navbar {
         display: none;
     }
     
