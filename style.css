@@ -2,7 +2,6 @@ body {
     margin: 0%;
     padding: 0%;
     min-width: 100vh;
-    display: inline-block;
     justify-content: space-between;
     align-items: center;
     font-family: Arial, sans-serif;
@@ -47,7 +46,6 @@ section {
     padding: 10px;
     border: #000;
     box-sizing: content-box;
-    box-shadow: #333;
     border-radius: 10px;
     background-color: aquamarine;
 }
