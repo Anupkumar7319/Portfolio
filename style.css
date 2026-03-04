@@ -1,4 +1,10 @@
 body {
+    margin: 0%;
+    padding: 0%;
+    min-width: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
@@ -11,7 +17,7 @@ body {
 
 .nav-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
     list-style: none;
     width: 100%;
@@ -20,6 +26,20 @@ body {
     border-radius: 5px;
     background-color: rgb(17, 17, 18);
     color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    
 }
 
 section {
