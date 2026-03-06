@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: rgba(80, 143, 150, 0.38);
     color: #333;
 }
 
@@ -18,8 +18,8 @@ body {
     height: 25px;
     padding-top: 5px;
     border-radius: 5px;
-    background-color: rgb(17, 17, 18);
-    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.278);
+    color: #e0dcdc;
 }
 
 section {
@@ -28,7 +28,7 @@ section {
     border: #000;
     box-sizing: content-box;
     border-radius: 10px;
-    background-color: aquamarine;
+    background-color: rgb(229, 235, 233);
 }
 
 p {
@@ -43,10 +43,10 @@ p {
 
 form {
     display: flex;
-    justify-content: center;
-    box-sizing: content-box;
+    justify-content: inherit;
     padding: 5px;
     gap: 3px;
+    margin: 3px;
 
 }
 
